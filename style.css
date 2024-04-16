@@ -68,7 +68,7 @@ body {
 }
 
 
-.ativo{
+.botao.ativo{
     background-color: var(--botao-ativo);
     border-bottom: 4px solid var(--verde);
     }
@@ -77,6 +77,17 @@ body {
         background-color: var(--botao-inativo);
         padding: 40px; 
         border-radius: 0 0 40px 40px;
+    }
+    .aba-conteudo.ativo{
+        display: block;
+    }
+
+    .aba-conteudo{
+        display: none;
+    }
+
+    .aba-conteudo-titulo-principal{
+        font-size: 28px;
     }
 
 @media screen and (min-width: 768px) {
