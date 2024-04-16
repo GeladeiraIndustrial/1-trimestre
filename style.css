@@ -74,7 +74,7 @@ body {
     }
     
     .abas-textos{
-        background-color: var(--texto-fundo);
+        background-color: var(#3A375E);
     }
 
 @media screen and (min-width: 768px) {
